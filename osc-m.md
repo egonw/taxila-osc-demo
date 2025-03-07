@@ -13,7 +13,7 @@ function initTeSSWidgets() {
                 columns: [{name: 'Date', field: 'start'},
                     {name: 'Name', field: 'title'},
                     {name: 'Location', field: 'location'}],
-                allowedFacets: ['keywords'],
+                allowedFacets: ['keywords', 'Keyword', "Keywords', 'keyword'],
                 facetOptionLimit: 5
             },
             params: {
