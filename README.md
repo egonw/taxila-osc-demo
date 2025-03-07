@@ -1,3 +1,3 @@
 # taxila-osc-demo
 
-* (Search with string)[search.md]
+* [Search with string](search.md)
