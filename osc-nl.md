@@ -12,7 +12,7 @@ function initTeSSWidgets() {
                 cluster: true
             },
             params: {
-                contentProvider: [ "OSCI", "OSCM", "OSCR", "OSCT", "OSCE", "OSCG", "OSCD" ]
+                contentProvider: [ "OSCM", "OSCR", "OSCT", "OSCE", "OSCG", "OSCD" ]
             },  
             baseUrl: 'https://dev.tess.elixir-europe.org'
         });
