@@ -19,7 +19,7 @@ function initTeSSWidgets() {
             params: {
                 contentProvider: [ "OSCM", "OSCR", "OSCT", "OSCE", "OSCG", "OSCD" ],
                 includeExpired: true,
-                sort: late
+                sort: 'late'
             },
             baseUrl: 'https://taxila.nl'
         });
