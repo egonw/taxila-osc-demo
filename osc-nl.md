@@ -11,7 +11,9 @@ function initTeSSWidgets() {
                 apiKey: 'AIzaSyAtxeshmu-95V4KZWyDklhhO-UNqNQQJKo',
                 cluster: true
             },
-            contentProvider: [ "OSCI", "OSCM", "OSCR", "OSCT", "OSCE", "OSCG", "OSCD" ],
+            params: {
+                contentProvider: [ "OSCI", "OSCM", "OSCR", "OSCT", "OSCE", "OSCG", "OSCD" ]
+            },  
             baseUrl: 'https://dev.tess.elixir-europe.org'
         });
 }
