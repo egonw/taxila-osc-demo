@@ -8,10 +8,10 @@ function initTeSSWidgets() {
         'GoogleMap',
         {
             opts: {
-                apiKey: 'AIzaSyAtxeshmu-95V4KZWyDklhhO-UNqNQQJKo', // Get your own API key!
+                apiKey: 'AIzaSyAtxeshmu-95V4KZWyDklhhO-UNqNQQJKo',
                 cluster: true
             },
-            contentProvider: { "OSCI", "OSCM", "OSCR", "OSCT", "OSCE", "OSCG", "OSCD" },
+            contentProvider: [ "OSCI", "OSCM", "OSCR", "OSCT", "OSCE", "OSCG", "OSCD" ],
             baseUrl: 'https://dev.tess.elixir-europe.org'
         });
 }
