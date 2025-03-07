@@ -13,12 +13,13 @@ function initTeSSWidgets() {
                 columns: [{name: 'Date', field: 'start'},
                     {name: 'Name', field: 'title'},
                     {name: 'Location', field: 'location'}],
-                allowedFacets: ['scientific-topics', 'country', 'city', 'target-audience'],
+                allowedFacets: ['keyword'],
                 facetOptionLimit: 5
             },
             params: {
                 contentProvider: [ "OSCM", "OSCR", "OSCT", "OSCE", "OSCG", "OSCD" ],
-                includeExpired: true
+                includeExpired: true,
+                sort: late
             },
             baseUrl: 'https://taxila.nl'
         });
