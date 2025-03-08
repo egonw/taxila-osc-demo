@@ -17,7 +17,7 @@ function initTeSSWidgets() {
                 facetOptionLimit: 5
             },
             params: {
-                contentProvider: [ "OSCM", "OSCR", "OSCT", "OSCE", "OSCG", "OSCD" ],
+                contentProvider: [ "OSCM" ],
                 includeExpired: true,
                 sort: 'late'
             },
